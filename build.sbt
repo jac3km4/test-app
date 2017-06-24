@@ -20,6 +20,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % "10.0.8",
   "de.heikoseeberger" %% "akka-http-circe" % "1.17.0",
   "io.circe" %% "circe-generic" % "0.8.0",
+  "com.lihaoyi" %% "fastparse" % "0.4.3",
   // test
   "org.scalatest" %% "scalatest" % "3.0.1" % Test,
   "com.typesafe.akka" %% "akka-http-testkit" % "10.0.8" % Test
